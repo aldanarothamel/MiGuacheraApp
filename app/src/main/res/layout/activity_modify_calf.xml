@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/calfId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Identificador del Ternero"
+            android:textColor="@color/textColor2"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/motherId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Identificador de la Madre"
+            android:textColor="@color/textColor2"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/birthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Nacimiento"
+            android:textColor="@color/textColor2"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="Sexo"
+            android:textColor="@color/textColor2" />
+
+        <RadioGroup
+            android:id="@+id/sexGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp" >
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macho"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hembra"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+            <RadioButton
+                android:id="@+id/nonRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No visible"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="48dp"
+            android:text="Estado General"
+            android:textColor="@color/textColor2" />
+
+        <RadioGroup
+            android:id="@+id/statusGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/healthyRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sano"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+            <RadioButton
+                android:id="@+id/sickRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfermo"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+            <RadioButton
+                android:id="@+id/deadRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muerto"
+                android:textColor="@color/textColor2"
+                android:minHeight="48dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/extraNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:hint="Anotaciones Extras"
+            android:minHeight="48dp"
+            android:textColor="@color/textColor2" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor"
+            android:minHeight="48dp"
+            android:text="Guardar"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+</ScrollView>

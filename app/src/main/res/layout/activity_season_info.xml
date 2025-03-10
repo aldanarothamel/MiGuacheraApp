@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/weText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información de la temporada:"
+        android:fontFamily="@font/font_family"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        android:layout_marginBottom="25sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/seasonInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Los registros se agregarán aquí dinámicamente -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

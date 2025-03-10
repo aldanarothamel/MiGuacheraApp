@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/calfId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Identificador del Ternero"
+            android:textColor="@color/textColor2"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/searchByCalfIdButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar con el id del terneo"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/textColor"/>
+
+        <EditText
+            android:id="@+id/motherId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Identificador de la madre"
+            android:textColor="@color/textColor2"
+            android:layout_marginBottom="25dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/searchByMotherIdButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar con el id de la madre"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/searchResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado de la búsqueda"
+            android:textSize="17dp"
+            android:textColor="@color/textColor2"
+            android:layout_marginTop="40dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/modifButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modificar datos"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="40dp"
+            android:minHeight="48dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar datos"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="40dp"
+            android:minHeight="48dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+

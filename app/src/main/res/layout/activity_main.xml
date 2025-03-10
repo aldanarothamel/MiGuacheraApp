@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buen dia Lalo"
+        android:fontFamily="@font/font_family"
+        android:textColor="@color/primaryColor"
+        android:textSize="45sp"
+        android:layout_marginBottom="50sp"/>
+
+    <Button
+        android:id="@+id/enterGuacheraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar a mi guachera"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/backgroundColor"/>
+
+</LinearLayout>

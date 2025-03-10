@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/registerBirthButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Nacimiento"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/registerDeathButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Fallecimiento"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/registerSaleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Venta"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/registerTreatmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Tratamiento"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/searchCalfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Ternero"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/statisticsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir Estadísticas"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/seasonInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información de la temporada"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/notesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notas"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="25dp"/>
+
+
+</LinearLayout>
